@@ -38,7 +38,7 @@ const fetchList = async () => {
     <div className="App">
       <Navbarr />
         <Routes>
-          <Route path="/" element={<ProductList productList={productList} setProductList={setProductList}/>}></Route>
+          <Route path="/ecomerce" element={<ProductList productList={productList} setProductList={setProductList}/>}></Route>
           <Route path="/detailPage" element={<DetailPage/>}/>
           <Route path="/addToProduct" element={<AddToProduct productList={productList} setProductList={setProductList}/>}/>
           <Route path="/cartItem" element={<CartItem/>}/>
